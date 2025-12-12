@@ -16,19 +16,19 @@ function fetchData() {
 
             data.forEach(item => {
                 const listItem = $(
-                    `<div class="anuntSpital flex flex-col min-w-[32.5%] max-w-[32.5%] bg-gradient-to-t from-red-800 to-zinc-800 rounded-xl shadow-md overflow-hidden border border-red dark:border-white">
-                        <div class="pozaSpital w-full h-[60%] relative border-b border-zinc-0 dark:border-zinc-0">
-                            <img src="./${item.imagine}.png" alt="Image" class="mt-0 w-full h-full rounded-md">
+                    `<div class="anuntSpital flex flex-col min-w-[32.5%] max-w-[32.5%] max-h-[525px] rounded-xl shadow-md overflow-hidden border border-blue-600" style="background: linear-gradient(to top, #000C3B, #001a83);">
+                        <div class="pozaSpital w-full h-[150px] relative border-b border-zinc-0 dark:border-zinc-0">
+                            <img src="${item.imagine}" alt="Image" class="mt-0 w-full h-full rounded-md">
                             <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-transparent to-transparent p-4">
                             </div>
                         </div>
-                        <div class="p-7 border-b border-white dark:border-zinc-0">
+                        <div class="p-7 border-b border-white dark:border-zinc-0 flex-grow flex flex-col justify-center">
                             <h2 class="text-2xl font-semibold text-white-800 dark:text-zinc-100">${item.title}</h2>
-                            <p class="mt-2 text-white-600 dark:text-zinc-300">${item.text}</p>
+                            <p class="mt-2 text-white-600 dark:text-zinc-300 text-center">${item.text}</p>
                             <div class="mt-4 flex gap-2">
                             </div>
                         </div>
-                        <div class="flex justify-center items-center px-6 py-4 bg-gradient-to-b from-red-800 to-zinc-800 dark:bg-zinc-00 border-t border-zinc-600 dark:border-zinc-700">
+                        <div class="flex justify-center items-center px-6 py-4 border-t border-zinc-600 dark:border-zinc-700" style="background: linear-gradient(to bottom, #001a83, #000C3B);">
                             <h3 class="text-white text-xl font-bold">Relații Publice</h3>
                         </div>
                     </div>`
