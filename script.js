@@ -16,8 +16,8 @@ function fetchData() {
 
             data.forEach(item => {
                 const listItem = $(
-                    `<div class="anuntSpital flex flex-col min-w-[32.5%] max-w-[32.5%] max-h-[525px] rounded-xl shadow-md overflow-hidden border border-blue-600" style="background: linear-gradient(to top, #000C3B, #001a83);">
-                        <div class="pozaSpital w-full h-[150px] relative border-b border-zinc-0 dark:border-zinc-0">
+                    `<div class="anuntSpital flex flex-col min-w-[32.5%] max-w-[34.5%] max-h-[565px] rounded-xl shadow-md overflow-hidden border border-blue-600" style="background: linear-gradient(to top, #000C3B, #001a83);">
+                        <div class="pozaSpital w-full h-[155px] relative border-b border-zinc-0 dark:border-zinc-0">
                             <img src="${item.imagine}" alt="Image" class="mt-0 w-full h-full rounded-md">
                             <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-transparent to-transparent p-4">
                             </div>
