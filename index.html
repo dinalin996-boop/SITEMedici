@@ -926,6 +926,12 @@ h4{
     object-fit: cover; /* Asigură că logo-ul nu este distorsionat */
     margin-top: 10px;
 }
+
+/* Regulă specifică pentru imaginea PR din divider */
+.divider-image img[src="img_pr.png"] {
+    width: 140px;  /* Lățimea mai mare pentru imaginea PR */
+    height: auto;
+}
 /* Medicina Muncii */
 .medicina-muncii {
     background-color: #006eff;  /* Albastru deschis pentru Medicina Muncii */
@@ -1783,7 +1789,7 @@ h4{
                     </div>
                         <!-- Logo mic între sub-departamente -->
                     <div class="logo-box">
-                        <img src="./img_mmls.png" alt="Logo" />
+                        <img src="./logommls.png" alt="Logo" />
                     </div>
                     <div class="sub-department medicina-muncii red">
                         <div class="image-box">
@@ -1822,7 +1828,7 @@ h4{
                         <div class="sub-department-details">
                             <h4>Mark Marius </h4>
                             <p class="role">Inspector Șef D.S.L.S</p>
-                            <p class="rank"><small>Contact: </small>@mihailamarius2012 | Mobil: 898-9898</p>
+                            <p class="rank"><small>Contact: </small>@mihailamarius2012 | Mobil: 898-9898 </p>
                         </div>
                     </div>
                 </div>
@@ -1838,7 +1844,7 @@ h4{
                         <div class="sub-department-details">
                             <h4>Costel Briceag</h4>
                             <p class="role">Inspector General I.S.U.L.S</p>
-                            <p class="rank"><small>Contact: </small>@marus2000 | Mobil: 777-7070</p>
+                            <p class="rank"><small>Contact: </small>@marus2000 | Mobil: 777-7070 </p>
                         </div>
                     </div>
 
@@ -1853,7 +1859,7 @@ h4{
                         <div class="sub-department-details">
                             <h4>Juratic Alex</h4>
                             <p class="role">Inspector Șef I.S.U.L.S</p>
-                            <p class="rank"><small>Contact: </small>@alex_baro | Mobil: 289-3530</p>
+                            <p class="rank"><small>Contact: </small>@alex_baro | Mobil: 289-3530 </p>
                         </div>
                     </div>
                 </div>
@@ -1861,10 +1867,6 @@ h4{
                     <!-- PR BOX + imaginile laterale -->
                     <span>Relații Publice Los Santos</span>
                     <div class="sub-department-container">
-                        <div class="image-side left-side">
-                            <img src="img_pr.png" alt="PR Logo Stânga" />
-                        </div>
-
                         <div class="sub-department pr blue">
                             <div class="image-box">
                                 <img src="img_ahaia_nou.PNG" alt="Denisa Ahaia">
@@ -1876,8 +1878,20 @@ h4{
                             </div>
                         </div>
 
-                        <div class="image-side right-side">
-                            <img src="img_pr.png" alt="PR Logo Dreapta" />
+                        <div class="divider-image">
+                            <img src="img_pr.png" alt="Divider logo" />
+                        </div>
+
+                        <div class="sub-department pr blue">
+                            <div class="image-box">
+                                <img src="" alt="Cioaba Costelinio">
+                            </div>
+                            <div class="sub-department-details">
+                                <h4>Cioaba Costelinio</h4>
+                                <p class="role">Adjunct Relații Publice</p>
+                                <p class="rank"><small>Contact: </small>@filip5150 | Mobil: 397-5371 </p>
+                            </div>
+                        </div>
                         </div>
                     </div>
 
